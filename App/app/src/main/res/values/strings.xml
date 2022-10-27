@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MediApp</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="btn_history">Medical Details and History</string>
+    <string name="btn_insurance">Insurance Details</string>
+    <string name="btn_mediai">MediAI</string>
+    <string name="btn_contactDoctor">Contact a Doctor</string>
+    <string name="btn_support">Support</string>
+    <string name="btn_ratings">Ratings and Reviews</string>
+    <string name="txt_Id">Log In Id</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="doc_need">What kind of Doctor do you need?</string>
+    <string name="doc_name">Dr.</string>
+    <string name="txt_login_failed">Log In credentials incorrect, please check</string>
+    <string name="txt_login_empty">A Log In field is empty</string>
+</resources>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MediCheck - My Patients</title>
+        <link rel="icon" href="images/icon.png">
+
+        <!-- Bootstrap Import -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <!-- Firebase Module Import-->
+        <script type="module" src="javaScript/patients.js" defer></script>
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3 position-fixed w-100">
+          <a href="index.html" class="navbar-brand" style="display: inline-block;"><img src="images/logoPng.png" style="width: 10%;">
+          <span style="font-size: 110%; font-weight: 500;">Medi Check</span></a>
+          <ul class="ms-auto navbar-nav" style="font-size: 140%; font-weight: 400;">
+              <li class="nav-item px-2"><a href="#test" class="nav-link">Link 1</a></li>
+              <li class="nav-item px-2"><a href="#" class="nav-link" id="myPatients">My Patients</a></li>
+              <li class="nav-item px-2"><a href="register.html" class="nav-link" id="logOut">Log Out</a></li>
+          </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <section class="text-dark bg-light p-5 text-center">
+            <div class="container mt-5">
+                <div class="w-100 pt-5">
+                    <h3>My Patients <span class="text-danger">(SAMPLE / Hard Coded)</span></h3>
+                </div>
+                <div>
+                    <table class="table table-bordered table-striped table-hover shadow">
+                        <thead>
+                          <tr>
+                            <th scope="col" class="text-info">#</th>
+                            <th scope="col" class="text-info">First</th>
+                            <th scope="col" class="text-info">Last</th>
+                            <th scope="col" class="text-info">Illness</th>
+                            <th scope="col" class="text-info">Risk Level</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row" class="text-info">1</th>
+                            <td class="fw-bold">Mark</td>
+                            <td class="fw-bold">Otto</td>
+                            <td class="fst-italic">Cancer</td>
+                            <td class="text-success">Low</td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="text-info">2</th>
+                            <td class="fw-bold">Jacob</td>
+                            <td class="fw-bold">Thornton</td>
+                            <td class="fst-italic">Diabeties</td>
+                            <td class="text-danger">High</td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="text-info">3</th>
+                            <td class="fw-bold">Larry</td>
+                            <td class="fw-bold">Adams</td>
+                            <td class="fst-italic">Heart Disease</td>
+                            <td class="text-warning">Moderate</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom of Page Info-->
+        <div class="pt-5 bg-dark text-white-50 text-center"> 
+            <h4>Contact</h4>
+            <p>
+                Phone: +353 87 1234 567<br> Email:
+                <a class="text-decoration-none" href="mailto: medichecksupport@gmail.com">medichecksupport@gmail.com</a>
+                <br> Address: 
+                <br> Grange rd Rathfarnham, 29
+                <br> Co. Dublin
+            </p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "74095638486",
+    "firebase_url": "https://medi-app-b5149-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "medi-app-b5149",
+    "storage_bucket": "medi-app-b5149.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74095638486:android:c0feb127241619ef765677",
+        "android_client_info": {
+          "package_name": "com.example.mediapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74095638486-m72uflcduq62f82ivr97ju8prcrgjs0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ONHoIWWlvAGi_XmD0Ky6Z2GykliSxLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74095638486-m72uflcduq62f82ivr97ju8prcrgjs0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

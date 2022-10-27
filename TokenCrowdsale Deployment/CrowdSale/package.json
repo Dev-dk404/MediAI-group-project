@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.2",
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bn": "^0.3.0",
+    "pify": "^5.0.0"
+  }
+}

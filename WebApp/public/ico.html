@@ -1,0 +1,97 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>E2E Test Dapp</title>
+  <link rel="icon" type="image/svg" href="metamask-fox.svg" />
+  <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  />
+  <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+          rel="stylesheet"
+  />
+  <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css"
+          rel="stylesheet"
+  />
+  <link rel="stylesheet" href="index.css" type="text/css" />
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3 w-100">
+    <a href="#" class="navbar-brand" style="display: inline-block;"><img src="images/logoPng.png" style="width: 10%;">
+      <span style="font-size: 110%; font-weight: 500;">Medi Check</span></a>
+    <ul class="ms-auto navbar-nav" style="font-size: 140%; font-weight: 400; margin-right: auto">
+      <li class="nav-item px-2"><a href="getPrediction.html" class="nav-link">Get Prediction</a></li>
+      <li class="nav-item px-2" id="logInElement"><a href="logIn.html" class="nav-link" id="logInLink">Log In</a></li>
+      <li class="nav-item px-2"><a href="register.html" class="nav-link" id="registerLink">Register</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="container-fluid">
+  <h1 class="text-center">
+    MediCoin ICO
+  </h1>
+  <section>
+    <div class="row d-flex justify-content-center" style="margin-top: 10px">
+      <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+        <p class="info-text alert alert-success" id="accountsDivHolder" style="display: none">
+          <span id="accounts"></span>
+        </p>
+        <div class="weiProgress" style="display: none">
+          <p style="text-align: center">Wei Raised:</p>
+          <p style="text-align: center"><span id="weiRaised">0</span>/<span id="contractBalance">1,000,000,000</span></p>
+          <div class="progress" style="margin-bottom: 20px">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 2.0%"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="row d-flex justify-content-center" style="margin-top: 10px">
+      <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">
+              Wallet Functions
+            </h4>
+
+            <button
+                    class="btn btn-primary btn-lg btn-block mb-3"
+                    id="connectButton"
+                    disabled
+            >
+              Connect
+            </button>
+
+            <p class="info-text alert alert-secondary">
+              Wallet Address: <span id="getAccountsResult">0x00000000000000</span><br>
+              Wallet ETH balance: <span id="getAccountsBalance">0.00000000000000</span><br>
+              MEDI balance: <span id="mediBalance">0.00000000000000</span><br>
+            </p>
+
+            <p>Number of tokens: <input type="number" id="tokenNumber" name="qty" value="1"></p>
+
+            <button
+                    class="btn btn-primary btn-lg btn-block mb-3"
+                    id="buyToken"
+                    disabled
+            >
+              <span id="buyText">Buy Token</span>
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="javaScript/ico.js" defer></script>
+<script src="javaScript/getPrediction.js" defer></script>
+</body>
+</html>
